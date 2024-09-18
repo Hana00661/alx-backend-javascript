@@ -1,10 +1,3 @@
-/**
- * Create a function named countStudents. It should accept a path in argument
- * The function should return a Promise
- * The script should attempt to read the database file asynchronously
- * CSV file can contain empty lines (at the end) - and they are not a valid 
- 		student!
- * */
 
 const fs = require('fs');
 
