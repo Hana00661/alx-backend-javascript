@@ -1,4 +1,3 @@
-
 const fs = require('fs');
 
 function countStudents(path) {
@@ -37,5 +36,4 @@ function countStudents(path) {
     });
   });
 }
-
 module.exports = countStudents;

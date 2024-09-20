@@ -1,10 +1,12 @@
 /**
  * Create a function named countStudents. It should accept a path in argument
  * The script should attempt to read the database file synchronously
- * If the database is not available, it should throw an error with the text 			Cannot load the database
- * If the database is available, it should log the following message to the 			console Number of students: NUMBER_OF_STUDENTS
- * CSV file can contain empty lines (at the end) - and they are not a valid 
-  					student!
+ * If the database is not available, it should throw an error
+ * the text Cannot load the database
+ * If the database is available, it should log the following message to the 
+ * console Number of students
+ * CSV file can contain empty lines (at the end) - 
+ * and they are not a valid student!
  *
  * */
 
@@ -44,7 +46,7 @@ function countStudents(path) {
     throw Error('Cannot load the database');
   }
 
-  //   console.log(CSname);
+//   console.log(CSname);
 }
 
 module.exports = countStudents;
